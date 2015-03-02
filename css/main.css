@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
+  color: #fff
+}
+
+
+.btn {
+  border-radius: 0;
+  font-family: 'Yanone Kaffeesatz','sans-serif';
+  font-size: 20px;
+  padding: 9px 23px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', 'sans-serif';
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px
+}
+
+#home {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.carousel-caption {
+  background: none repeat scroll 0 0 #000000;
+  bottom: 10%;
+  float: left;
+  left: 5%;
+  opacity: 0.8;
+  padding:10px 60px 35px;
+  right: inherit;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+
+.carousel-caption h2 {
+  font-size: 38px;
+
+}
+
+.carousel-caption h4 {
+  font-size: 24px;
+}
+
+.carousel-caption a {
+  font-size: 22px;
+  color: #2da1c5
+}
+
+.carousel-caption a:hover {
+  color: #2588a6
+}
+
+.carousel-caption a:hover i {
+  margin-left: 35px
+}
+
+.carousel-caption a i {
+  margin-left: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-indicators li {
+  background-color:#1B7B98;
+  border: 1px solid #1B7B98;
+}
+
+.carousel-indicators li.active {
+  background-color:#fff;
+  border: 1px solid #fff;
+}
+
+
+
+#info {
+  background-color: #032149;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  background: #000000;
+}
+
+footer {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#footer {
+  background-color: #000000;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 35px 0;
+}
+
+#footer a {
+  color:#B0E2FF;
+}
+
+#footer a:hover {
+  color:#1B7B98;
+}
